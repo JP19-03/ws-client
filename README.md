@@ -1,47 +1,47 @@
 # ws-client
 
-Cliente WebSocket para interactuar con un servidor usando Socket.IO.
+WebSocket client to interact with a server using Socket.IO.
 
-## Características
+## Features
 
-- Conexión a servidor WebSocket mediante JWT.
-- Visualización del estado del servidor (Online/Offline).
-- Lista de clientes conectados.
-- Envío y recepción de mensajes en tiempo real.
+- Connects to a WebSocket server using JWT.
+- Displays server status (Online/Offline).
+- Shows list of connected clients.
+- Sends and receives real-time messages.
 
-## Instalación
+## Installation
 
-1. Clona el repositorio.
-2. Instala dependencias:
+1. Clone the repository.
+2. Install dependencies:
 
    ```sh
    npm install
    ```
 
-## Uso
+## Usage
 
-- Inicia el servidor backend compatible con Socket.IO.
-- Ejecuta el cliente en modo desarrollo:
+- Start the backend server compatible with Socket.IO.
+- Run the client in development mode:
 
-   ```sh
-   npm run dev
-   ```
+  ```sh
+  npm run dev
+  ```
 
-- Ingresa tu token JWT y haz clic en "Connect".
+- Enter your JWT token and click "Connect".
 
 ## Scripts
 
-- `npm run dev`: Inicia el modo desarrollo con Vite.
-- `npm run build`: Compila TypeScript y construye el proyecto.
-- `npm run preview`: Previsualiza el proyecto construido.
+- `npm run dev`: Starts development mode with Vite.
+- `npm run build`: Compiles TypeScript and builds the project.
+- `npm run preview`: Previews the built project.
 
-## Estructura
+## Structure
 
-- `src/`: Código fuente principal.
-- `index.html`: Entrada de la aplicación.
-- `style.css`: Estilos.
+- `src/`: Main source code.
+- `index.html`: Application entry point.
+- `style.css`: Styles.
 
-## Dependencias
+## Dependencies
 
 - [socket.io-client](https://www.npmjs.com/package/socket.io-client)
 - [vite](https://vitejs.dev/)
